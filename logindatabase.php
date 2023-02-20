@@ -8,7 +8,8 @@ $password = "password";
 $dbname = "nome_database";
 
 // Creazione della connessione
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysql
+	($servername, $username, $password, $dbname);
 
 // Verifica della connessione
 if ($conn->connect_error) {
